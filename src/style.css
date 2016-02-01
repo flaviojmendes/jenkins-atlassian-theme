@@ -1,10 +1,12 @@
+
 table, form, input, td, th, p, textarea, select {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
 
 body {
     background: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #page-body {
@@ -46,6 +48,11 @@ a:hover, a:active {
     text-decoration: none;
     vertical-align: middle;
     white-space: normal;
+
+}
+
+.build-icon {
+      left: 0px !important;
 }
 
 .icon-hourglass {
@@ -55,8 +62,8 @@ a:hover, a:active {
 /* header panel */
 
 #header {
-    background: none repeat scroll 0 0 #ff9900;
-    background-color: #ff9900;
+    background: none repeat scroll 0 0 #1b62a1;
+    background-color: #1b62a1;
 }
 
 #header td#login-field span a {
@@ -320,8 +327,8 @@ td.progress-bar-done {
 
 .tabBar {
     overflow: auto;
-    background-color: #f5f5f5;
-    border: solid #ccc;
+    background-color: #fef4e5;
+    border: solid #fdcb81;
     border-top-width: 1px;
     border-right-width: 0px;
     border-left-width: 0px;
@@ -342,7 +349,7 @@ td.progress-bar-done {
 .tabBar [type=radio]:checked ~ a {
     border: none!important;
     color: inherit!important;
-    background: #f5f5f5;
+    background: #fcdfb4;
 }
 
 .tabBar .tab a.addTab {
@@ -361,7 +368,7 @@ td.progress-bar-done {
 }
 
 .tabBar .tab a:hover {
-    background-color: #e5e5e5;
+    background-color: #fbd59b;
 }
 
 #viewList {
@@ -495,4 +502,11 @@ tr.permission-row:nth-child(even) {
     background-image: -moz-radial-gradient(3px 3px 45deg, circle cover, #f0ad4e 0%, #d58512 100%);
     background-image: -webkit-radial-gradient(3px 3px, circle cover, #f0ad4e, #d58512);
     background-image: radial-gradient(circle at 3px 3px, #f0ad4e 0%, #d58512 100%);
+}
+
+.permalinks-list {
+    list-style-type: none !important;
+    border: 1px solid #CCC !important;
+    padding: 10px !important;
+    font-size: 12px !important;
 }

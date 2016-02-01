@@ -12,7 +12,9 @@ module.exports = function(grunt) {
             src : [
                 'src/login.js',
                 'src/toggle.js',
-                'src/jobconfig.js' 
+                'src/jobconfig.js',
+                'src/fonts.js'
+
             ],
             dest : 'dist/theme.js'
         }
