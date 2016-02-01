@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a:link, a:visited {
     text-decoration: none;
-    color: #3b73af;
+    color: #bd7100;
 }
 
 a:hover, a:active {
@@ -33,7 +33,7 @@ a:hover, a:active {
 
 #executors a.model-link.inside {
     background: none repeat scroll 0 0 #F5F5F5!important;
-    color: #3B73AF;
+    color: #bd7100;
     display: inline-block;
     font-size: 12px;
     font-weight: normal;
@@ -55,8 +55,8 @@ a:hover, a:active {
 /* header panel */
 
 #header {
-    background: none repeat scroll 0 0 #205081;
-    background-color: #205081;
+    background: none repeat scroll 0 0 #ff9900;
+    background-color: #ff9900;
 }
 
 #header td#login-field span a {
@@ -350,7 +350,7 @@ td.progress-bar-done {
 }
 
 .tabBar .tab a {
-    color: #3b73af;
+    color: #bd7100;
     position: relative;
     display: block;
     border-width: 0px;
@@ -496,8 +496,3 @@ tr.permission-row:nth-child(even) {
     background-image: -webkit-radial-gradient(3px 3px, circle cover, #f0ad4e, #d58512);
     background-image: radial-gradient(circle at 3px 3px, #f0ad4e 0%, #d58512 100%);
 }
-
-
-
-
-
