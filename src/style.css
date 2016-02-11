@@ -510,3 +510,18 @@ tr.permission-row:nth-child(even) {
     padding: 10px !important;
     font-size: 12px !important;
 }
+
+/* Dashboard */
+
+
+.successful {
+  background: #297529;
+}
+
+.unstable {
+  background: #d1ca00;
+}
+
+div#icon-bar img {
+    width: 100%;
+}
